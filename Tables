@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mengenal Tabel HTML</title>
+</head>
+<body>
+    <table border="1" cellpadding="3">
+        <tr>
+            <td rowspan="2">No</th>
+            <th rowspan="2">NPM</th>
+            <th rowspan="2">Mahasiswa</th>
+            <th colspan="4">Nilai</th>
+        </tr>
+        <tr>
+            <th>T1</th>
+            <th>T2</th>
+            <th>T3</th>
+            <th>Rata-rata</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>12345</td>
+            <td>Berlin</td>
+            <td>98.00</td>
+            <td>80.00</td>
+            <td>81.00</td>
+            <td>86.33</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>12346</td>
+            <td>Tokyo</td>
+            <td>84.00</td>
+            <td>84.00</td>
+            <td>70.00</td>
+            <td>79.33</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>12347</td>
+            <td>Helshinki</td>
+            <td>84.00</td>
+            <td>85.00</td>
+            <td>75.00</td>
+            <td>81.33</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>12348</td>
+            <td>Nairobi</td>
+            <td>84.00</td>
+            <td>90.00</td>
+            <td>80.00</td>
+            <td>84.66</td>
+        </tr>
+    </table>
+</body>
+</html>
